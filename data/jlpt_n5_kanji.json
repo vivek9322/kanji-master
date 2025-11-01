@@ -1,0 +1,883 @@
+[
+  {
+    "id": 1,
+    "kanji": "一",
+    "onyomi": "イチ, イツ",
+    "kunyomi": "ひと-, ひとつ",
+    "meaning": "one",
+    "example": "一人 (ひとり) - one person"
+  },
+  {
+    "id": 2,
+    "kanji": "二",
+    "onyomi": "ニ, ジ",
+    "kunyomi": "ふた-, ふたつ",
+    "meaning": "two",
+    "example": "二人 (ふたり) - two people"
+  },
+  {
+    "id": 3,
+    "kanji": "三",
+    "onyomi": "サン",
+    "kunyomi": "みっ-, みつ",
+    "meaning": "three",
+    "example": "三日 (みっか) - third day"
+  },
+  {
+    "id": 4,
+    "kanji": "四",
+    "onyomi": "シ",
+    "kunyomi": "よん, よっ-, よつ",
+    "meaning": "four",
+    "example": "四月 (しがつ) - April"
+  },
+  {
+    "id": 5,
+    "kanji": "五",
+    "onyomi": "ゴ",
+    "kunyomi": "いつ, いつつ",
+    "meaning": "five",
+    "example": "五日 (いつか) - fifth day"
+  },
+  {
+    "id": 6,
+    "kanji": "六",
+    "onyomi": "ロク, リク",
+    "kunyomi": "むっ-, むつ, ろっ",
+    "meaning": "six",
+    "example": "六月 (ろくがつ) - June"
+  },
+  {
+    "id": 7,
+    "kanji": "七",
+    "onyomi": "シチ",
+    "kunyomi": "なな, なの-, なっ",
+    "meaning": "seven",
+    "example": "七日 (なのか) - seventh day"
+  },
+  {
+    "id": 8,
+    "kanji": "八",
+    "onyomi": "ハチ",
+    "kunyomi": "やっ-, やつ, よう",
+    "meaning": "eight",
+    "example": "八月 (はちがつ) - August"
+  },
+  {
+    "id": 9,
+    "kanji": "九",
+    "onyomi": "キュウ, ク",
+    "kunyomi": "ここの-, ここのつ",
+    "meaning": "nine",
+    "example": "九月 (くがつ) - September"
+  },
+  {
+    "id": 10,
+    "kanji": "十",
+    "onyomi": "ジュウ, ジッ",
+    "kunyomi": "とお, と",
+    "meaning": "ten",
+    "example": "十日 (とおか) - tenth day"
+  },
+  {
+    "id": 11,
+    "kanji": "百",
+    "onyomi": "ヒャク",
+    "kunyomi": "もも",
+    "meaning": "hundred",
+    "example": "百円 (ひゃくえん) - 100 yen"
+  },
+  {
+    "id": 12,
+    "kanji": "千",
+    "onyomi": "セン",
+    "kunyomi": "ち",
+    "meaning": "thousand",
+    "example": "千円 (せんえん) - 1000 yen"
+  },
+  {
+    "id": 13,
+    "kanji": "万",
+    "onyomi": "マン, バン",
+    "kunyomi": "よろず",
+    "meaning": "ten thousand, many",
+    "example": "一万円 (いちまんえん) - 10,000 yen"
+  },
+  {
+    "id": 14,
+    "kanji": "人",
+    "onyomi": "ジン, ニン",
+    "kunyomi": "ひと",
+    "meaning": "person, people",
+    "example": "日本人 (にほんじん) - Japanese person"
+  },
+  {
+    "id": 15,
+    "kanji": "大",
+    "onyomi": "ダイ, タイ",
+    "kunyomi": "おお-, おおきい",
+    "meaning": "big, large",
+    "example": "大きい (おおきい) - big"
+  },
+  {
+    "id": 16,
+    "kanji": "小",
+    "onyomi": "ショウ",
+    "kunyomi": "ちい-, ちいさい, こ-, お-",
+    "meaning": "small, little",
+    "example": "小さい (ちいさい) - small"
+  },
+  {
+    "id": 17,
+    "kanji": "中",
+    "onyomi": "チュウ",
+    "kunyomi": "なか",
+    "meaning": "middle, center",
+    "example": "中国 (ちゅうごく) - China"
+  },
+  {
+    "id": 18,
+    "kanji": "上",
+    "onyomi": "ジョウ, ショウ",
+    "kunyomi": "うえ, うわ-, かみ, あ-, あげる, のぼる",
+    "meaning": "above, up, over",
+    "example": "上手 (じょうず) - skillful"
+  },
+  {
+    "id": 19,
+    "kanji": "下",
+    "onyomi": "カ, ゲ",
+    "kunyomi": "した, しも, もと, さ-, さげる, くだる",
+    "meaning": "below, down, under",
+    "example": "下さい (ください) - please give"
+  },
+  {
+    "id": 20,
+    "kanji": "日",
+    "onyomi": "ニチ, ジツ",
+    "kunyomi": "ひ, -び, -か",
+    "meaning": "day, sun",
+    "example": "今日 (きょう) - today"
+  },
+  {
+    "id": 21,
+    "kanji": "月",
+    "onyomi": "ゲツ, ガツ",
+    "kunyomi": "つき",
+    "meaning": "month, moon",
+    "example": "月曜日 (げつようび) - Monday"
+  },
+  {
+    "id": 22,
+    "kanji": "年",
+    "onyomi": "ネン",
+    "kunyomi": "とし",
+    "meaning": "year",
+    "example": "今年 (ことし) - this year"
+  },
+  {
+    "id": 23,
+    "kanji": "時",
+    "onyomi": "ジ",
+    "kunyomi": "とき, -どき",
+    "meaning": "time, hour",
+    "example": "時間 (じかん) - time"
+  },
+  {
+    "id": 24,
+    "kanji": "水",
+    "onyomi": "スイ",
+    "kunyomi": "みず",
+    "meaning": "water",
+    "example": "水曜日 (すいようび) - Wednesday"
+  },
+  {
+    "id": 25,
+    "kanji": "火",
+    "onyomi": "カ",
+    "kunyomi": "ひ, -び, ほ-",
+    "meaning": "fire",
+    "example": "火曜日 (かようび) - Tuesday"
+  },
+  {
+    "id": 26,
+    "kanji": "木",
+    "onyomi": "ボク, モク",
+    "kunyomi": "き, こ-",
+    "meaning": "tree, wood",
+    "example": "木曜日 (もくようび) - Thursday"
+  },
+  {
+    "id": 27,
+    "kanji": "金",
+    "onyomi": "キン, コン",
+    "kunyomi": "かね, かな-, がね",
+    "meaning": "gold, metal, money",
+    "example": "金曜日 (きんようび) - Friday"
+  },
+  {
+    "id": 28,
+    "kanji": "土",
+    "onyomi": "ド, ト",
+    "kunyomi": "つち",
+    "meaning": "earth, ground, soil",
+    "example": "土曜日 (どようび) - Saturday"
+  },
+  {
+    "id": 29,
+    "kanji": "山",
+    "onyomi": "サン",
+    "kunyomi": "やま",
+    "meaning": "mountain",
+    "example": "山田 (やまだ) - Yamada (name)"
+  },
+  {
+    "id": 30,
+    "kanji": "川",
+    "onyomi": "セン",
+    "kunyomi": "かわ",
+    "meaning": "river",
+    "example": "川口 (かわぐち) - Kawaguchi (name)"
+  },
+  {
+    "id": 31,
+    "kanji": "田",
+    "onyomi": "デン",
+    "kunyomi": "た",
+    "meaning": "rice field, field",
+    "example": "田舎 (いなか) - countryside"
+  },
+  {
+    "id": 32,
+    "kanji": "口",
+    "onyomi": "コウ, ク",
+    "kunyomi": "くち",
+    "meaning": "mouth, opening",
+    "example": "人口 (じんこう) - population"
+  },
+  {
+    "id": 33,
+    "kanji": "目",
+    "onyomi": "モク, ボク",
+    "kunyomi": "め, -め",
+    "meaning": "eye",
+    "example": "目上 (めうえ) - superior"
+  },
+  {
+    "id": 34,
+    "kanji": "耳",
+    "onyomi": "ジ",
+    "kunyomi": "みみ",
+    "meaning": "ear",
+    "example": "耳鼻科 (じびか) - ENT clinic"
+  },
+  {
+    "id": 35,
+    "kanji": "手",
+    "onyomi": "シュ",
+    "kunyomi": "て, た-",
+    "meaning": "hand",
+    "example": "上手 (じょうず) - skillful"
+  },
+  {
+    "id": 36,
+    "kanji": "足",
+    "onyomi": "ソク",
+    "kunyomi": "あし, た-, たりる",
+    "meaning": "foot, leg, sufficient",
+    "example": "足りる (たりる) - to be enough"
+  },
+  {
+    "id": 37,
+    "kanji": "見",
+    "onyomi": "ケン",
+    "kunyomi": "み-, みる, みえる",
+    "meaning": "see, look at",
+    "example": "見る (みる) - to see"
+  },
+  {
+    "id": 38,
+    "kanji": "聞",
+    "onyomi": "ブン, モン",
+    "kunyomi": "き-, きく, きこえる",
+    "meaning": "hear, listen, ask",
+    "example": "聞く (きく) - to hear, to ask"
+  },
+  {
+    "id": 39,
+    "kanji": "話",
+    "onyomi": "ワ",
+    "kunyomi": "はなし, はな-, はなす",
+    "meaning": "talk, story, conversation",
+    "example": "話す (はなす) - to speak"
+  },
+  {
+    "id": 40,
+    "kanji": "言",
+    "onyomi": "ゲン, ゴン",
+    "kunyomi": "い-, いう, こと",
+    "meaning": "say, word",
+    "example": "言う (いう) - to say"
+  },
+  {
+    "id": 41,
+    "kanji": "読",
+    "onyomi": "ドク, トク",
+    "kunyomi": "よ-, よむ",
+    "meaning": "read",
+    "example": "読む (よむ) - to read"
+  },
+  {
+    "id": 42,
+    "kanji": "書",
+    "onyomi": "ショ",
+    "kunyomi": "か-",
+    "meaning": "write",
+    "example": "書く (かく) - to write"
+  },
+  {
+    "id": 43,
+    "kanji": "行",
+    "onyomi": "コウ, ギョウ",
+    "kunyomi": "い-, いく, ゆ-, ゆく, おこなう",
+    "meaning": "go, do, conduct",
+    "example": "行く (いく) - to go"
+  },
+  {
+    "id": 44,
+    "kanji": "来",
+    "onyomi": "ライ",
+    "kunyomi": "く-, くる, きたる",
+    "meaning": "come",
+    "example": "来る (くる) - to come"
+  },
+  {
+    "id": 45,
+    "kanji": "出",
+    "onyomi": "シュツ, スイ",
+    "kunyomi": "で-, だ-, でる, だす",
+    "meaning": "exit, leave, go out",
+    "example": "出る (でる) - to leave, to exit"
+  },
+  {
+    "id": 46,
+    "kanji": "入",
+    "onyomi": "ニュウ",
+    "kunyomi": "い-, いる, はい-, はいる",
+    "meaning": "enter, insert",
+    "example": "入る (はいる) - to enter"
+  },
+  {
+    "id": 47,
+    "kanji": "食",
+    "onyomi": "ショク, ジキ",
+    "kunyomi": "た-, たべる, く-, くう",
+    "meaning": "eat, food",
+    "example": "食べる (たべる) - to eat"
+  },
+  {
+    "id": 48,
+    "kanji": "飲",
+    "onyomi": "イン",
+    "kunyomi": "の-",
+    "meaning": "drink",
+    "example": "飲む (のむ) - to drink"
+  },
+  {
+    "id": 49,
+    "kanji": "買",
+    "onyomi": "バイ",
+    "kunyomi": "か-",
+    "meaning": "buy",
+    "example": "買う (かう) - to buy"
+  },
+  {
+    "id": 50,
+    "kanji": "売",
+    "onyomi": "バイ",
+    "kunyomi": "う-",
+    "meaning": "sell",
+    "example": "売る (うる) - to sell"
+  },
+  {
+    "id": 51,
+    "kanji": "新",
+    "onyomi": "シン",
+    "kunyomi": "あたら-, あたらしい, あら-",
+    "meaning": "new",
+    "example": "新しい (あたらしい) - new"
+  },
+  {
+    "id": 52,
+    "kanji": "古",
+    "onyomi": "コ",
+    "kunyomi": "ふる-, ふるい",
+    "meaning": "old",
+    "example": "古い (ふるい) - old"
+  },
+  {
+    "id": 53,
+    "kanji": "長",
+    "onyomi": "チョウ",
+    "kunyomi": "なが-, ながい",
+    "meaning": "long, leader",
+    "example": "長い (ながい) - long"
+  },
+  {
+    "id": 54,
+    "kanji": "短",
+    "onyomi": "タン",
+    "kunyomi": "みじか-",
+    "meaning": "short",
+    "example": "短い (みじかい) - short"
+  },
+  {
+    "id": 55,
+    "kanji": "高",
+    "onyomi": "コウ",
+    "kunyomi": "たか-, たかい, たかまる, たかめる",
+    "meaning": "expensive, high, tall",
+    "example": "高い (たかい) - expensive, high"
+  },
+  {
+    "id": 56,
+    "kanji": "安",
+    "onyomi": "アン",
+    "kunyomi": "やす-, やすい",
+    "meaning": "cheap, peaceful",
+    "example": "安い (やすい) - cheap"
+  },
+  {
+    "id": 57,
+    "kanji": "多",
+    "onyomi": "タ",
+    "kunyomi": "おお-, おおい",
+    "meaning": "many, much",
+    "example": "多い (おおい) - many"
+  },
+  {
+    "id": 58,
+    "kanji": "少",
+    "onyomi": "ショウ",
+    "kunyomi": "すく-, すくない, すこ-",
+    "meaning": "few, little",
+    "example": "少ない (すくない) - few"
+  },
+  {
+    "id": 59,
+    "kanji": "早",
+    "onyomi": "ソウ, サッ",
+    "kunyomi": "はや-, はやい, はやめる, はやまる",
+    "meaning": "early, fast",
+    "example": "早い (はやい) - early, fast"
+  },
+  {
+    "id": 60,
+    "kanji": "晩",
+    "onyomi": "バン",
+    "kunyomi": "ばん",
+    "meaning": "evening, night",
+    "example": "晩ご飯 (ばんごはん) - dinner"
+  },
+  {
+    "id": 61,
+    "kanji": "白",
+    "onyomi": "ハク, ビャク",
+    "kunyomi": "しろ-, しろい",
+    "meaning": "white",
+    "example": "白い (しろい) - white"
+  },
+  {
+    "id": 62,
+    "kanji": "黒",
+    "onyomi": "コク",
+    "kunyomi": "くろ-, くろい",
+    "meaning": "black",
+    "example": "黒い (くろい) - black"
+  },
+  {
+    "id": 63,
+    "kanji": "赤",
+    "onyomi": "セキ, シャク",
+    "kunyomi": "あか-, あかい",
+    "meaning": "red",
+    "example": "赤い (あかい) - red"
+  },
+  {
+    "id": 64,
+    "kanji": "青",
+    "onyomi": "セイ, ショウ",
+    "kunyomi": "あお-, あおい",
+    "meaning": "blue, green",
+    "example": "青い (あおい) - blue"
+  },
+  {
+    "id": 65,
+    "kanji": "本",
+    "onyomi": "ホン",
+    "kunyomi": "もと",
+    "meaning": "book, origin, main",
+    "example": "本 (ほん) - book"
+  },
+  {
+    "id": 66,
+    "kanji": "車",
+    "onyomi": "シャ",
+    "kunyomi": "くるま",
+    "meaning": "car, vehicle",
+    "example": "車 (くるま) - car"
+  },
+  {
+    "id": 67,
+    "kanji": "電",
+    "onyomi": "デン",
+    "kunyomi": "",
+    "meaning": "electricity",
+    "example": "電気 (でんき) - electricity"
+  },
+  {
+    "id": 68,
+    "kanji": "気",
+    "onyomi": "キ, ケ",
+    "kunyomi": "",
+    "meaning": "spirit, mood, energy",
+    "example": "元気 (げんき) - healthy, energetic"
+  },
+  {
+    "id": 69,
+    "kanji": "天",
+    "onyomi": "テン",
+    "kunyomi": "あめ, あま-",
+    "meaning": "heaven, sky",
+    "example": "天気 (てんき) - weather"
+  },
+  {
+    "id": 70,
+    "kanji": "地",
+    "onyomi": "チ, ジ",
+    "kunyomi": "",
+    "meaning": "ground, earth",
+    "example": "地下 (ちか) - underground"
+  },
+  {
+    "id": 71,
+    "kanji": "学",
+    "onyomi": "ガク",
+    "kunyomi": "まな-",
+    "meaning": "study, learning",
+    "example": "学校 (がっこう) - school"
+  },
+  {
+    "id": 72,
+    "kanji": "校",
+    "onyomi": "コウ",
+    "kunyomi": "",
+    "meaning": "school",
+    "example": "学校 (がっこう) - school"
+  },
+  {
+    "id": 73,
+    "kanji": "先",
+    "onyomi": "セン",
+    "kunyomi": "さき, ま-",
+    "meaning": "ahead, previous, future",
+    "example": "先週 (せんしゅう) - last week"
+  },
+  {
+    "id": 74,
+    "kanji": "生",
+    "onyomi": "セイ, ショウ",
+    "kunyomi": "い-, う-, うまれる, き-, なま",
+    "meaning": "life, birth, raw",
+    "example": "学生 (がくせい) - student"
+  },
+  {
+    "id": 75,
+    "kanji": "先",
+    "onyomi": "セン",
+    "kunyomi": "さき, ま-",
+    "meaning": "ahead, previous, future",
+    "example": "先週 (せんしゅう) - last week"
+  },
+  {
+    "id": 76,
+    "kanji": "会",
+    "onyomi": "カイ, エ",
+    "kunyomi": "あ-",
+    "meaning": "meeting, meet",
+    "example": "会う (あう) - to meet"
+  },
+  {
+    "id": 77,
+    "kanji": "社",
+    "onyomi": "シャ",
+    "kunyomi": "やしろ",
+    "meaning": "company, society",
+    "example": "会社 (かいしゃ) - company"
+  },
+  {
+    "id": 78,
+    "kanji": "店",
+    "onyomi": "テン",
+    "kunyomi": "みせ, たな",
+    "meaning": "shop, store",
+    "example": "店 (みせ) - shop"
+  },
+  {
+    "id": 79,
+    "kanji": "町",
+    "onyomi": "チョウ",
+    "kunyomi": "まち",
+    "meaning": "town, street",
+    "example": "町 (まち) - town"
+  },
+  {
+    "id": 80,
+    "kanji": "駅",
+    "onyomi": "エキ",
+    "kunyomi": "",
+    "meaning": "station",
+    "example": "駅 (えき) - station"
+  },
+  {
+    "id": 81,
+    "kanji": "道",
+    "onyomi": "ドウ, トウ",
+    "kunyomi": "みち",
+    "meaning": "road, way, path",
+    "example": "道 (みち) - road"
+  },
+  {
+    "id": 82,
+    "kanji": "名",
+    "onyomi": "メイ, ミョウ",
+    "kunyomi": "な, -な",
+    "meaning": "name, reputation",
+    "example": "名前 (なまえ) - name"
+  },
+  {
+    "id": 83,
+    "kanji": "国",
+    "onyomi": "コク",
+    "kunyomi": "くに",
+    "meaning": "country, nation",
+    "example": "国 (くに) - country"
+  },
+  {
+    "id": 84,
+    "kanji": "市",
+    "onyomi": "シ",
+    "kunyomi": "いち",
+    "meaning": "city, market",
+    "example": "市 (し) - city"
+  },
+  {
+    "id": 85,
+    "kanji": "外",
+    "onyomi": "ガイ, ゲ",
+    "kunyomi": "そと, ほか, はず-",
+    "meaning": "outside, foreign",
+    "example": "外 (そと) - outside"
+  },
+  {
+    "id": 86,
+    "kanji": "内",
+    "onyomi": "ナイ",
+    "kunyomi": "うち",
+    "meaning": "inside, within",
+    "example": "内 (うち) - inside"
+  },
+  {
+    "id": 87,
+    "kanji": "前",
+    "onyomi": "ゼン",
+    "kunyomi": "まえ",
+    "meaning": "before, front",
+    "example": "前 (まえ) - before, front"
+  },
+  {
+    "id": 88,
+    "kanji": "後",
+    "onyomi": "ゴ, コウ",
+    "kunyomi": "うし-, あと, のち",
+    "meaning": "after, behind, later",
+    "example": "後 (あと) - after"
+  },
+  {
+    "id": 89,
+    "kanji": "左",
+    "onyomi": "サ",
+    "kunyomi": "ひだり",
+    "meaning": "left",
+    "example": "左 (ひだり) - left"
+  },
+  {
+    "id": 90,
+    "kanji": "右",
+    "onyomi": "ウ, ユウ",
+    "kunyomi": "みぎ",
+    "meaning": "right",
+    "example": "右 (みぎ) - right"
+  },
+  {
+    "id": 91,
+    "kanji": "東",
+    "onyomi": "トウ",
+    "kunyomi": "ひがし",
+    "meaning": "east",
+    "example": "東 (ひがし) - east"
+  },
+  {
+    "id": 92,
+    "kanji": "西",
+    "onyomi": "セイ, サイ",
+    "kunyomi": "にし",
+    "meaning": "west",
+    "example": "西 (にし) - west"
+  },
+  {
+    "id": 93,
+    "kanji": "南",
+    "onyomi": "ナン, ナ",
+    "kunyomi": "みなみ",
+    "meaning": "south",
+    "example": "南 (みなみ) - south"
+  },
+  {
+    "id": 94,
+    "kanji": "北",
+    "onyomi": "ホク",
+    "kunyomi": "きた",
+    "meaning": "north",
+    "example": "北 (きた) - north"
+  },
+  {
+    "id": 95,
+    "kanji": "今",
+    "onyomi": "コン, キン",
+    "kunyomi": "いま",
+    "meaning": "now, present",
+    "example": "今 (いま) - now"
+  },
+  {
+    "id": 96,
+    "kanji": "後",
+    "onyomi": "ゴ, コウ",
+    "kunyomi": "うし-, あと, のち",
+    "meaning": "after, behind, later",
+    "example": "後 (あと) - after"
+  },
+  {
+    "id": 97,
+    "kanji": "毎",
+    "onyomi": "マイ",
+    "kunyomi": "ごと",
+    "meaning": "every",
+    "example": "毎日 (まいにち) - every day"
+  },
+  {
+    "id": 98,
+    "kanji": "休",
+    "onyomi": "キュウ",
+    "kunyomi": "やす-",
+    "meaning": "rest, holiday",
+    "example": "休む (やすむ) - to rest"
+  },
+  {
+    "id": 99,
+    "kanji": "働",
+    "onyomi": "ドウ",
+    "kunyomi": "はたら-",
+    "meaning": "work",
+    "example": "働く (はたらく) - to work"
+  },
+  {
+    "id": 100,
+    "kanji": "作",
+    "onyomi": "サク, サ",
+    "kunyomi": "つく-",
+    "meaning": "make, create",
+    "example": "作る (つくる) - to make"
+  },
+  {
+    "id": 101,
+    "kanji": "休",
+    "onyomi": "キュウ",
+    "kunyomi": "やす-",
+    "meaning": "rest, holiday",
+    "example": "休む (やすむ) - to rest"
+  },
+  {
+    "id": 102,
+    "kanji": "間",
+    "onyomi": "カン, ケン",
+    "kunyomi": "あいだ, ま, あい",
+    "meaning": "interval, space, between",
+    "example": "時間 (じかん) - time"
+  },
+  {
+    "id": 103,
+    "kanji": "分",
+    "onyomi": "ブン, フン, ブ",
+    "kunyomi": "わ-",
+    "meaning": "minute, part, understand",
+    "example": "分かる (わかる) - to understand"
+  },
+  {
+    "id": 104,
+    "kanji": "週",
+    "onyomi": "シュウ",
+    "kunyomi": "",
+    "meaning": "week",
+    "example": "週間 (しゅうかん) - week"
+  },
+  {
+    "id": 105,
+    "kanji": "午",
+    "onyomi": "ゴ",
+    "kunyomi": "",
+    "meaning": "noon",
+    "example": "午後 (ごご) - afternoon"
+  },
+  {
+    "id": 106,
+    "kanji": "後",
+    "onyomi": "ゴ, コウ",
+    "kunyomi": "うし-, あと, のち",
+    "meaning": "after, behind, later",
+    "example": "後 (あと) - after"
+  },
+  {
+    "id": 107,
+    "kanji": "前",
+    "onyomi": "ゼン",
+    "kunyomi": "まえ",
+    "meaning": "before, front",
+    "example": "前 (まえ) - before, front"
+  },
+  {
+    "id": 108,
+    "kanji": "今",
+    "onyomi": "コン, キン",
+    "kunyomi": "いま",
+    "meaning": "now, present",
+    "example": "今 (いま) - now"
+  },
+  {
+    "id": 109,
+    "kanji": "語",
+    "onyomi": "ゴ",
+    "kunyomi": "かた-",
+    "meaning": "word, language, speak",
+    "example": "日本語 (にほんご) - Japanese language"
+  },
+  {
+    "id": 110,
+    "kanji": "病",
+    "onyomi": "ビョウ, ヘイ",
+    "kunyomi": "やまい, や-",
+    "meaning": "sick, illness",
+    "example": "病気 (びょうき) - illness"
+  }
+]
+
