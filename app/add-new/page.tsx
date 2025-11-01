@@ -94,19 +94,19 @@ export default function AddNewPage() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
+    <div className="max-w-2xl mx-auto w-full">
+      <div className="mb-6 sm:mb-8">
+        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-1 sm:mb-2">
           Add New Flashcard
         </h1>
-        <p className="text-gray-600 dark:text-gray-400">
+        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
           Create a custom flashcard to study
         </p>
       </div>
 
-      <form onSubmit={handleSubmit} className="space-y-6">
+      <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
         <div>
-          <label htmlFor="kanji" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+          <label htmlFor="kanji" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5 sm:mb-2">
             Kanji <span className="text-red-500">*</span>
           </label>
           <input
@@ -116,13 +116,14 @@ export default function AddNewPage() {
             value={formData.kanji}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red"
+            className="w-full px-4 py-2.5 sm:py-2 text-base sm:text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red"
             placeholder="例: 漢"
+            autoComplete="off"
           />
         </div>
 
         <div>
-          <label htmlFor="onyomi" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+          <label htmlFor="onyomi" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5 sm:mb-2">
             Onyomi (音読み)
           </label>
           <input
@@ -131,13 +132,14 @@ export default function AddNewPage() {
             name="onyomi"
             value={formData.onyomi}
             onChange={handleChange}
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red"
+            className="w-full px-4 py-2.5 sm:py-2 text-base sm:text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red"
             placeholder="例: カン"
+            autoComplete="off"
           />
         </div>
 
         <div>
-          <label htmlFor="kunyomi" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+          <label htmlFor="kunyomi" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5 sm:mb-2">
             Kunyomi (訓読み)
           </label>
           <input
@@ -146,13 +148,14 @@ export default function AddNewPage() {
             name="kunyomi"
             value={formData.kunyomi}
             onChange={handleChange}
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red"
+            className="w-full px-4 py-2.5 sm:py-2 text-base sm:text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red"
             placeholder="例: かんじ"
+            autoComplete="off"
           />
         </div>
 
         <div>
-          <label htmlFor="meaning" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+          <label htmlFor="meaning" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5 sm:mb-2">
             Meaning <span className="text-red-500">*</span>
           </label>
           <input
@@ -162,13 +165,14 @@ export default function AddNewPage() {
             value={formData.meaning}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red"
+            className="w-full px-4 py-2.5 sm:py-2 text-base sm:text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red"
             placeholder="例: Chinese character"
+            autoComplete="off"
           />
         </div>
 
         <div>
-          <label htmlFor="example" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+          <label htmlFor="example" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5 sm:mb-2">
             Example Word
           </label>
           <textarea
@@ -177,7 +181,7 @@ export default function AddNewPage() {
             value={formData.example}
             onChange={handleChange}
             rows={3}
-            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red resize-none"
+            className="w-full px-4 py-2.5 sm:py-2 text-base sm:text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red resize-none"
             placeholder="例: 漢字 (かんじ) - kanji"
           />
         </div>
@@ -185,7 +189,7 @@ export default function AddNewPage() {
         <button
           type="submit"
           disabled={loading}
-          className="w-full px-6 py-3 bg-japanese-red text-white rounded-lg hover:bg-japanese-red-light transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+          className="w-full px-6 py-3 sm:py-2.5 bg-japanese-red text-white rounded-lg hover:bg-japanese-red-light transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 text-base sm:text-sm touch-manipulation min-h-[44px]"
         >
           {loading ? (
             <>

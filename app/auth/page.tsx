@@ -71,12 +71,12 @@ export default function AuthPage() {
   }
 
   return (
-    <div className="max-w-md mx-auto">
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2 text-center">
+    <div className="max-w-md mx-auto w-full px-4">
+      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 sm:p-8">
+        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-2 text-center">
           {isSignUp ? 'Sign Up' : 'Sign In'}
         </h1>
-        <p className="text-gray-600 dark:text-gray-400 text-center mb-8">
+        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 text-center mb-6 sm:mb-8">
           {isSignUp
             ? 'Create an account to save your flashcards'
             : 'Sign in to access your flashcards'}
@@ -84,29 +84,31 @@ export default function AuthPage() {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5 sm:mb-2">
               Email
             </label>
             <div className="relative">
-              <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
+              <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
               <input
                 type="email"
                 id="email"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 required
-                className="w-full pl-10 pr-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red"
+                className="w-full pl-10 pr-4 py-2.5 sm:py-2 text-base sm:text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red"
                 placeholder="your@email.com"
+                autoComplete="email"
+                inputMode="email"
               />
             </div>
           </div>
 
           <div>
-            <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5 sm:mb-2">
               Password
             </label>
             <div className="relative">
-              <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
+              <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
               <input
                 type="password"
                 id="password"
@@ -114,8 +116,9 @@ export default function AuthPage() {
                 onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                 required
                 minLength={6}
-                className="w-full pl-10 pr-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red"
+                className="w-full pl-10 pr-4 py-2.5 sm:py-2 text-base sm:text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-japanese-red"
                 placeholder="••••••••"
+                autoComplete={isSignUp ? 'new-password' : 'current-password'}
               />
             </div>
           </div>
@@ -123,7 +126,7 @@ export default function AuthPage() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full px-6 py-3 bg-japanese-red text-white rounded-lg hover:bg-japanese-red-light transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+            className="w-full px-6 py-3 sm:py-2.5 bg-japanese-red text-white rounded-lg hover:bg-japanese-red-light transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 text-base sm:text-sm touch-manipulation min-h-[44px]"
           >
             {loading ? (
               <>
@@ -151,7 +154,7 @@ export default function AuthPage() {
           <button
             onClick={handleGoogleAuth}
             disabled={loading}
-            className="mt-4 w-full px-6 py-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="mt-4 w-full px-6 py-3 sm:py-2.5 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed text-base sm:text-sm touch-manipulation min-h-[44px] flex items-center justify-center"
           >
             <svg className="inline-block w-5 h-5 mr-2" viewBox="0 0 24 24">
               <path

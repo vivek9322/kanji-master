@@ -69,30 +69,30 @@ export default function MyFlashcardsPage() {
   }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-4 sm:space-y-6">
       <div>
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
+        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-1 sm:mb-2">
           My Flashcards
         </h1>
-        <p className="text-gray-600 dark:text-gray-400">
+        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
           {flashcards.length} flashcard{flashcards.length !== 1 ? 's' : ''} saved
         </p>
       </div>
 
       {flashcards.length === 0 ? (
-        <div className="text-center py-12">
-          <p className="text-gray-500 dark:text-gray-400 text-lg mb-4">
+        <div className="text-center py-8 sm:py-12 px-4">
+          <p className="text-gray-500 dark:text-gray-400 text-base sm:text-lg mb-4">
             You haven&apos;t created any flashcards yet.
           </p>
           <a
             href="/add-new"
-            className="inline-block px-6 py-3 bg-japanese-red text-white rounded-lg hover:bg-japanese-red-light transition-colors"
+            className="inline-block px-6 py-3 bg-japanese-red text-white rounded-lg hover:bg-japanese-red-light transition-colors text-sm sm:text-base touch-manipulation min-h-[44px] flex items-center justify-center"
           >
             Create Your First Flashcard
           </a>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 lg:gap-6">
           {flashcards.map((flashcard) => {
             const kanji: Kanji = {
               id: Date.now() + Math.random(), // Generate a unique ID for display
@@ -107,7 +107,7 @@ export default function MyFlashcardsPage() {
                 <FlashcardComponent kanji={kanji} />
                 <button
                   onClick={() => handleDelete(flashcard.id)}
-                  className="absolute top-2 right-2 p-2 bg-red-600 text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-700"
+                  className="absolute top-2 right-2 p-2.5 bg-red-600 text-white rounded-full opacity-0 group-hover:opacity-100 sm:opacity-100 sm:group-hover:opacity-100 transition-opacity hover:bg-red-700 touch-manipulation min-w-[40px] min-h-[40px] flex items-center justify-center"
                   aria-label="Delete flashcard"
                 >
                   <Trash2 size={18} />

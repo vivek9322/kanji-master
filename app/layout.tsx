@@ -32,7 +32,7 @@ export default function RootLayout({
         <Providers>
           <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
             <Navbar />
-            <main className="container mx-auto px-4 py-8">
+            <main className="container mx-auto px-3 sm:px-4 lg:px-6 py-4 sm:py-6 lg:py-8 max-w-7xl">
               {children}
             </main>
             <Toaster 
